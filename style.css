@@ -210,11 +210,9 @@ section .title::after{
   transform: translateX(-50%);
 }
 
-
 .about .title::after{
   content: "who i am";
 }
-
 
 .about .about-content .left{
   width: 45%;
@@ -234,7 +232,6 @@ section .title::after{
 
 .about .about-content .right{
   width: 55%;
-  
 }
 
 .about .about-content .text{
@@ -299,20 +296,11 @@ margin-bottom: 10px;
   0px 0px 40px white;
   border-radius: 50%;
   border: 1px solid black;
-
 }
 
 .services .serv-content .card .box{
   transition: all 0.3s ease;
 }
-
-/* .services .serv-content .card:hover .box{
-  transform: scale(1.02);
-} */
-
-/* .services .serv-content .card:hover i{
-  color: #111
-} */
 
 .services .serv-content .card i{
   font-size: 40px;
@@ -324,7 +312,6 @@ margin-bottom: 10px;
   font-weight: 500;
   margin: 10px 0 7px 0;
 }
-
 
 .skills .title::after{
   content: "what i know"
@@ -450,7 +437,6 @@ margin-bottom: 10px;
   padding: 25px 35px;
   transition: all 0.3s ease;
   text-align: center;
-  
 }
 
 #projects1{
@@ -509,7 +495,6 @@ margin-bottom: 10px;
   border-radius: 50%;
   border: 5px solid crimson;
   transition: all 0.3s ease;
-
 }
 
 .projects .carousel .card:hover img{
@@ -524,9 +509,7 @@ margin-bottom: 10px;
 img.social {
   width: 100px;
   height: 100px;
-
 }
-
 
 .owl-dots{
   text-align: center;
@@ -564,7 +547,6 @@ img.social {
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 10px;
-
 }
 
 .contact .contact-content .left p{
@@ -605,7 +587,6 @@ img.social {
 .contact .contact-content .info .sub-title{
   color: #333;
 }
-
 
 .contact .right form .fields{
   display: flex;
@@ -688,7 +669,6 @@ footer span a:hover{
 }
 
 
-
 /* responsive---------------------------------------------------- */
 
 /* -------------------------------------------------------------- */
@@ -709,9 +689,6 @@ footer span a:hover{
     }
   }
 
-
-  
-
 @media (max-width: 1108px){
     .about .about-content .left img{
       height: 350px;
@@ -724,7 +701,6 @@ footer span a:hover{
       }
     }
 
-
 @media (max-width: 991px){
   .max-width{padding: 0 50px;
   transition: all 0.3s ease;
@@ -734,11 +710,9 @@ footer span a:hover{
 @media (max-width: 947px){
   .menu-btn{
     display: block;
-    z-index: 999;
-   
+    z-index: 999; 
     }
   
-
 .menu-btn i.active::before{
   content: "\f00d";
 }
@@ -761,7 +735,6 @@ footer span a:hover{
 
 .navbar .menu li{
   display: block;
-
 }
 
 .navbar .menu li a{
@@ -781,16 +754,15 @@ font-size: 70px;
 .home .home-content a{
   font-size: 23px;
   padding: 10px 30px;
-
 }
 
 .max-width{
   max-width: 800px;
 }
+
 .about .about-content .column, .skills .skills-content .column, .contact .contact-content .column{
   width: 100%;
   margin-bottom: 35px;
-  
 }
 
 .about .about-content .left{
@@ -823,7 +795,6 @@ font-size: 70px;
   .home .home-content a{
     font-size: 23px;
     padding: 8px 25px;
-  
   }
 }
 
@@ -837,10 +808,7 @@ font-size: 70px;
   .home .home-content a{
     font-size: 23px;
     padding: 7px 23px;
-  
   }
-
-  
 }
 
 @media (max-width: 615px){
@@ -850,7 +818,6 @@ font-size: 70px;
   .home .home-content a{
     font-size: 21px;
     padding: 6px 20px;
-  
   }
  }
 
@@ -921,13 +888,9 @@ font-size: 70px;
       .contact .contact-content .left .icons .envelope{
         font-size: 18px;
       }
-      
     }
 
     @media (max-width: 384px){
-
-      
-      
       .services .title::after{
         content: "stalk me";
         background: #111;
@@ -937,8 +900,6 @@ font-size: 70px;
       .contact .contact-content .left .icons .envelope{
         font-size: 16px;
       }
-     
-
   }
 
       @media (max-width: 380px){
@@ -950,8 +911,6 @@ font-size: 70px;
           padding: 4px 14px;
           margin-top: 8px;
         }
-       
-
     }
 
 
