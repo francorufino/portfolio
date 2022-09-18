@@ -56,3 +56,7 @@ $(document).ready(function () {
     },
   });
 });
+
+var year = new Date().getFullYear();
+var date = ` Andreza Campbell &copy; ${year}. |  All rights reserved`;
+document.getElementsByTagName('footer')[0].innerHTML = date;

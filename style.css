@@ -225,6 +225,7 @@ section .title::after{
   width: 400px;
   object-fit: cover;
   border-radius: 50%;
+  border: 2px solid crimson;
 }
 
 .about .column .right{
@@ -237,7 +238,7 @@ section .title::after{
 }
 
 .about .about-content .text{
-font-size: 25px;
+font-size: 1.2rem;
 font-weight: 600;
 margin-bottom: 10px;
 }
@@ -268,7 +269,6 @@ margin-bottom: 10px;
   background: none;
 }
 
-
 .services, .projects{
   background: #111;
   color: white
@@ -279,34 +279,40 @@ margin-bottom: 10px;
 }
 
 .services .title::after, .projects .title::after{
-  content: "what i provide";
+  content: "stalk me";
   background: #111
 }
 
-.services .serv-content .card{
-  width: calc(33% - 20px);
-  background: #222;
+.services .serv-content{
+  display: flex;
+  justify-content: space-around;
+  background: #111;
   text-align: center;
-  border-radius: 6px;
-  padding: 20px 25px;
-  cursor: pointer
+  cursor: pointer;
+  margin: 0 38%
 }
 
-.services .serv-content .card:hover{
-  background: crimson;
+#git:hover, #link:hover, #face:hover{
+  background: #111;
+  box-shadow: 0px 0px 20px crimson,
+  0px 0px 30px crimson,
+  0px 0px 40px white;
+  border-radius: 50%;
+  border: 1px solid black;
+
 }
 
 .services .serv-content .card .box{
   transition: all 0.3s ease;
 }
 
-.services .serv-content .card:hover .box{
+/* .services .serv-content .card:hover .box{
   transform: scale(1.02);
-}
+} */
 
-.services .serv-content .card:hover i{
+/* .services .serv-content .card:hover i{
   color: #111
-}
+} */
 
 .services .serv-content .card i{
   font-size: 40px;
@@ -329,7 +335,7 @@ margin-bottom: 10px;
 }
 
 .skills .skills-content .left .text{
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -435,7 +441,7 @@ margin-bottom: 10px;
 }
 
 .projects .title::after{
-  content: "what i've done";
+  content: "my work";
 }
 
 .projects .carousel .card{
@@ -481,7 +487,7 @@ margin-bottom: 10px;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
-  
+  width: 100%;
 }
 
 .projects .carousel .card:hover .box{
@@ -492,7 +498,8 @@ margin-bottom: 10px;
   font-size: 25px;
   font-weight: 500;
   margin:  10px 0 7px 0;
-  color:#cecece
+  color:#cecece;
+  width: 100%;
 }
 
 .projects .carousel .card img{
@@ -512,6 +519,12 @@ margin-bottom: 10px;
 .projects i{
   color: crimson;
   padding: 5px;
+}
+
+img.social {
+  width: 100px;
+  height: 100px;
+
 }
 
 
@@ -548,7 +561,7 @@ margin-bottom: 10px;
 }
 
 .contact .contact-content .text{
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 10px;
 
@@ -916,7 +929,7 @@ font-size: 70px;
       
       
       .services .title::after{
-        content: "what i provide";
+        content: "stalk me";
         background: #111;
         font-size: 18px;
       }
