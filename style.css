@@ -225,7 +225,7 @@ section .title::after{
   width: 400px;
   object-fit: cover;
   border-radius: 50%;
-  border: 2px solid crimson;
+  border: 6px solid crimson;
 }
 
 .about .column .right{
